@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+
+<form action="{{url_for('cadastro')}}" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" placeholder="João Silva" class="inputclass iw">
+    <br>
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha" class="inputclass iw">
+    <br>
+    <input type="submit" name="" id="" value="Enviar" class="inputclass">
+
+</form>
+
+{% endblock %}

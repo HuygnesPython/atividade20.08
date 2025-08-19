@@ -1,0 +1,35 @@
+.menu{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    padding: 7px;
+}
+ul{
+    color: white;
+}
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 7px;
+}
+.inputclass{
+    border-radius: 5px;
+}
+form{
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 30px;
+}
+label,input{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+}
+.iw{
+    width: 500px;
+}
+.menu-links{
+    display: flex;
+    justify-content: flex-end;
+}

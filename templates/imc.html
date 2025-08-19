@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<h3>Calculo de IMC</h3>
+<form action="{{url_for('imc')}}" style="border-radius: 8px; padding: 10px;", method="POST">
+    
+<label for="peso">Peso:</label>
+<input type="number" name="peso" id="peso" step="0.1" required>
+<br>
+<label for="alt">Altura:</label>
+<input type="number" name="alt" id="alt" step="0.01" required>
+<br>
+<button type="submit">Calcular</button>
+
+</form>
+
+
+
+
+
+
+{% endblock %}
